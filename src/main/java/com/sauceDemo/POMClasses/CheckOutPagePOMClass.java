@@ -43,6 +43,7 @@ public class CheckOutPagePOMClass
 	public void  clickCancelButton()
 	{
 		CancelButton.click();
+		System.out.println("HII");
 	}
 	
 	
@@ -51,5 +52,6 @@ public class CheckOutPagePOMClass
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	
 
 }
